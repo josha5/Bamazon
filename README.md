@@ -1,14 +1,20 @@
-# Bamazon description:
-Node JS application that takes in orders from customers and depletes stock from store inventory in mysql database
+# Bamazon
+Node JS application that takes in orders from customers and depletes stock from store inventory in mysql database.
+To have access full access to bamazon please:
+* clone repo
+* run the command 'npm install' 
+* Run 'ctrl + c' to exit each JS file.
 
 
+## bamazonCustomer.js Walkthrough:
+* Type bamazonCustomer.js in your terminal 
+* User is shown current items and there quantities from the mysql database.
+* User is prompted to type the ID of the item they are looking to purchase.
+* Once user selects an item ID, they are then prompted to specify the quantity of the item they are looking to purchase.
+    * If a valid ID is entered and the current stock can meet the amount entered the user is shown the order total.
+    * If the purhcase is successful the amount of stock is updated in the mysql database.
 
-## Instructions for using BamazonCustomer.js:
-To access the mysql database containing current stock information on various items, in your terminal type the command 
-** bamazonCustomer.js ** to initially be shown the current stock of items and their prices in your terminal.
- You will then be asked the ID of the item you are looking to purchase as well as how many units of that product you 
- would like to buy! If there is a sufficient amount of the product in stock, the total cost of the purchase will be 
- printed to the console and the mysql database will update the quantity of that item left. 
+
 
 
 
