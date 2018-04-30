@@ -12,9 +12,11 @@ To have access full access to bamazon please:
 * User is prompted to type the ID of the item they are looking to purchase.
 * Once user selects an item ID, they are then prompted to specify the quantity of the item they are looking to purchase.
     * If a valid ID is entered and the current stock can meet the amount entered the user is shown the order total.
-    * If the purhcase is successful the amount of stock is updated in the mysql database.
+    * If the purchase is successful the amount of stock is updated in the mysql database.
 
 ![bamazonCustomer.js demo](https://media.giphy.com/media/w6exmle0txFm5enfB4/giphy.gif);
+
+## bamazonManager.js Walkthrough coming soon:
 
 
 
